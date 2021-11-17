@@ -52,7 +52,6 @@ body {
   margin: 20px 0;
   text-align: left;
   background-color: hsl(225, 100%, 98%);
-  /* background-color: hsl(225, 67%, 96%); */
   padding: 10px;
   border-radius: 10px;
 }
@@ -73,7 +72,7 @@ body {
 
 .payment-details a:hover {
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
   color: hsl(245, 66%, 61%);
 }
 
@@ -106,12 +105,9 @@ button:hover {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-weight: 700;
-  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 .button-group button:first-child:hover {
   background-color: hsl(245, 66%, 61%);
-
-  /* background-color: hsl(224, 23%, 55%); */
 }
 
 .button-group button:nth-child(2) {
