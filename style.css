@@ -23,7 +23,6 @@ body {
   flex-direction: column;
   background-image: url("images/pattern-background-desktop.svg");
   background-color: hsl(225, 100%, 98%);
-  /*  */
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 16px;
@@ -125,7 +124,7 @@ button:hover {
   line-height: 1.5rem;
   font-size: 15px;
 }
-.payment-details h2 {
+.payment-details h1 {
   font-size: 16px;
 }
 
@@ -141,6 +140,6 @@ h1 {
   font-weight: 900;
 }
 
-h2 + p {
+.payment-details h1 + p {
   font-size: 14px;
 }
